@@ -2,26 +2,45 @@
   margin: 0;
   padding: 0;  
 }
+body{
+  background-image: linear-gradient(#88BDBC, #254e58, #112d32);
+
+}
+h1,h2,h3,p,a{
+  color: rgb(52, 52, 248);
+  font-weight: bolder;
+  /* font-style: italic; */
+  font-family: 'Poppins', sans-serif;
+  /* font-family: cursive; */
+  text-decoration: none;
+}
 .container{
     width: 100%;
     height: 100vh;
-    background-image: url('IMG-20231006-WA0100.JPG');
-    background-color: aqua;
+    /* background-image: url('IMG-20231006-WA0100.JPG'); */
+    /* background-color: aqua; */
     background-size: cover;
     background-position: center;
     flex-wrap: wrap;
-}
+    }
 
 .form{
-  width: 250px;
+  width: 500px;
   height: 380px;
-  background: linear-gradient();
   position: absolute;
   top: 100px;
   left: 500px;
   border-radius: 10px;
   padding: 25px;
   align-content: center;
+  background: rgb(106, 106, 248);
+  border: 2px solid rgb(106, 106, 248);
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    /* border-bottom: #2704ec; */
+    /* border-top: #100729; */
+    box-sizing: border-box;
+    box-shadow: 10px 10px 8px #2f3be67c;
 }
 
 .form h2{

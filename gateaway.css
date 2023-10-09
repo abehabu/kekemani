@@ -6,6 +6,8 @@
 
 body {
 	font-family: cursive;
+	font-family: 'Poppins', sans-serif;
+	font-size: 10px;
 	font-weight: bold;
 	background-color: rgb(252, 240, 227);
 }
@@ -15,19 +17,21 @@ body {
 	width: 100%;
     display: flex;
     flex-direction: column;
-	background-image: linear-gradient(rgb(129, 129, 247), skyblue);
+	/* background-image: linear-gradient(rgb(129, 129, 247), skyblue); */
+	background-image: linear-gradient(#88BDBC, #254e58, #112d32);
 	top: 50%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%, -50%);
 	position: absolute;
 	border-bottom-left-radius: 180px;
-	border-top-right-radius: 150px;
+	border-top-right-radius: 50px;
 }
 
 .main-content {
 	height: 235px;
-	background-color: linear-gradient(rgb(175, 175, 245), skyblue);
+	/* background-color: linear-gradient(rgb(175, 175, 245), skyblue); */
+	background-image: linear-gradient(#88BDBC, #254e58, #112d32);
 	border-bottom-left-radius: 90px;
 	border-bottom-right-radius: 80px;
 	border-top: #06039c;
@@ -54,7 +58,9 @@ body {
 	font-size: 20px;
 	border-radius: 25px;
 	padding-top: 0.5px;
-	background-image: linear-gradient(rgb(113, 113, 243), skyblue);
+	/* background-image: linear-gradient(rgb(113, 113, 243), skyblue); */
+	background-image: linear-gradient(#88BDBC, #254e58, #112d32);
+
 }
 
 .centre-content-h1 {
@@ -75,7 +81,8 @@ body {
 .card-details {
     display: flex;
     flex-direction: column;
-	background: linear-gradient(rgb(115, 115, 247), skyblue);
+	/* background: linear-gradient(rgb(115, 115, 247), skyblue); */
+	background-image: linear-gradient(#88BDBC, #254e58, #112d32);
 	color: rgb(225, 223, 233);
 	margin: 10px 30px;
 	padding: 10px;

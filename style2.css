@@ -5,7 +5,8 @@
   .container{
       width: 100%;
       height: 100vh;
-      background-image: url('img-20231006-wa0100.jpg');
+      /* background-image: url('img-20231006-wa0100.jpg'); */
+      background-image: linear-gradient(#88BDBC, #254e58, #112d32);
       background-color: aqua;
       background-size: cover;
       background-position: center;
@@ -13,15 +14,23 @@
   }
   
   .form{
-    width: 250px;
-    height: 380px;
-    background: linear-gradient();
+    width: 700px;
+    height: 500px;
+    /* background: linear-gradient(); */
     position: absolute;
-    top: 100px;
-    left: 500px;
+    top: 50px;
+    left: 300px;
     border-radius: 10px;
     padding: 25px;
     align-content: center;
+    background: rgb(106, 106, 248);
+    border: 2px solid rgb(106, 106, 248);
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    /* border-bottom: #2704ec; */
+    /* border-top: #100729; */
+    box-sizing: border-box;
+    box-shadow: 10px 10px 8px #2f3be67c;
   }
   
   .form h2{
@@ -49,7 +58,19 @@
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: 'Poppins', sans-serif;
+  }
+  span{
+    width: 10%;
+    border: 2px solid rgb(106, 106, 248);
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    /* border-bottom: #2704ec; */
+    /* border-top: #100729; */
+    box-sizing: border-box;
+    box-shadow: 10px 10px 8px #2f3be67c;
+    background-color: rgb(56, 54, 54);
   }
   
   .form input:focus{
@@ -76,11 +97,24 @@
   a {
     color: aqua;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
   }
   
   p{
-    margin-top: 10px;
+    background-color: rgb(106, 106, 248);
     color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: 1px;
+    border-radius: 10%;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 20px;
+    /* font-family: cursive; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
     text-decoration: none;
   }
   
