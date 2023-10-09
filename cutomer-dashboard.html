@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cutomer-dashboard.css">
+    <title>Plan your Journey|Kekemania</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-nav">
+                <div class="header-nav-logo">
+                    <h1>K3K3MANIA</h1>
+                </div>
+                <div class="header-nav-menu">
+                    <ul>
+                        <li><a href="#">Trip</a></li>
+                        <li><a href="#">Charter</a></li>
+                        <li><a href="#">Book</a></li>
+                    </ul>
+                </div>
+                <div class="header-nav-settings">
+                    <div class="header-nav-settings-share">
+                        <div class="help">
+                            <a href="#"><h3>Help</h3></a>
+                        </div>
+                        <a href="#"><img src="./images/share.png" alt=""></a>
+                    </div>
+                    <div class="header-nav-settings-help">
+                        <a href="#"><img src="./images/help-252.png" alt=""></a>
+                    </div>
+                    <div class="header-nav-settings-profile-menu">
+                        <img src="./images/—Pngtree—customer service avatar_4695606.png" alt="" onclick="toggleMenu()">
+                        <div class="sub-menu-wrap" id="subMenu" >
+                            <div class="sub-menu">
+                                <div class="user-info">
+                                    <img id="user" src="./images/—Pngtree—customer service avatar_4695606.png">
+                                    <h2>User1</h2>
+                                </div>
+                                <hr>
+                                <a href="#" class="sub-menu-link">
+                                    <p>Edit Profile</p>
+                                    <span>></span>
+                                </a>
+                                <a href="#" class="sub-menu-link">
+                                    <p>Manage Wallet</p>
+                                    <span>></span>
+                                </a>
+                                <a href="#" class="sub-menu-link">
+                                    <p>My Trips</p>
+                                    <span>></span>
+                                </a>
+                                <a href="#" class="sub-menu-link">
+                                    <p>Log out</p>
+                                    <span>></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map-and-location">
+            <div class="location-destination">
+                <label for="Where To"><p>Pick Up Location:</p></label>
+                <input type="text" placeholder="location" name="destination" required><br>
+                <label for="Where To"><p>Drop off Location:</p></label>
+                <input type="text" placeholder="Destination" name="destination" required>
+            </div>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3923.471542402583!2d7.424110204573675!3d10.463444042399786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1696547925307!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="booking">
+            <a class="book" href="gateaway.html">Book Ride</a>
+     </div>
+    </div>
+    <script>
+        let subMenu = document.getElementById("subMenu");
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+</html>

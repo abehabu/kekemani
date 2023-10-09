@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="driver-dasboard.css">
+    <title>Driver-Dashboard|Kekmani</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-nav">
+                <div class="header-nav-logo">
+                    <h1>K3K3MANIA</h1>
+                </div>
+                <div class="header-nav-menu">
+                    <ul>
+                        <li><a href="#">Trips</a></li>
+                        <!-- <li><a href="#">My Earnings</a></li> -->
+                        <li><a href="#wallet">Wallet</a></li>
+                    </ul>
+                </div>
+                <div class="header-nav-settings">
+                    <div class="header-nav-settings-profile-menu">
+                        <div class="incoming">
+                            <h2>Incoming Request!!!</h2>
+                        </div>
+                        <img src="./images/images.png" alt="" onclick="toggleMenu()">
+                        <div class="sub-menu-wrap" id="subMenu" >
+                            <div class="sub-menu">
+                                <div class="user-info">
+                                    <img id="user" src="./images/avatar2.png">
+                                    <h2>Incoming Request</h2>
+                                </div>
+                                <hr>
+                                <a href="#" class="sub-menu-link">
+                                    <p>Sarah</p>
+                                    <span>></span>
+                                </a>
+                                <a href="#" class="sub-menu-link">
+                                    <p>Pickup: Barnawa</p>
+                                    <span>></span>
+                                </a>
+                                <a href="#" class="sub-menu-link">
+                                    <p>Destination: Kasuwa</p>
+                                    <span>></span>
+                                </a>
+                                <a href="#" class="sub-menu-link">
+                                    <p>Accept</p>
+                                    <span>></span>
+                                </a>
+                                <a href="#" class="sub-menu-link">
+                                    <p>Decline</p>
+                                    <span>></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map-and-on-going-trips">
+            <div class="ongoing-trips">
+                <h2>Ongoing Trips</h2>
+                <tab V +le>
+                    <tr>
+                        <th>User:</th>
+                        <th>Pickup Location:</th>
+                        <th>Destination</th>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Sabo</td>
+                        <td>Barnawa</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3923.471542402583!2d7.424110204573675!3d10.463444042399786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1696547925307!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="my-earnings">
+                <table>
+                    <tr>
+                        <th><h2>Earned Today:</h2></th>
+                        
+                    </tr>
+                    <tr>
+                        <td>₦10,500</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th>Today's Trips:</th>
+                        <th>Total Time Driven: </th>
+                        <th>Total Distance Covered: </th>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>5hrs30mins</td>
+                        <td>45km</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- <div class="wallet">
+            <h2>Wallet</h2>
+        </div> -->
+    </div>
+    <script>
+        let subMenu = document.getElementById("subMenu");
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+    
+</body>
+</html>
